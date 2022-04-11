@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">disease predictor app</string>
+    <string name="apple">"An <strike>Apple</strike></string>
+    <string-array name="symptom_list">
+        <item>SELECT SYMPTOM</item>
+        <item>Anxiety</item>
+        <item>Stomach Ache</item>
+        <item>Nausea</item>
+        <item>Vomiting</item>
+        <item>Fever</item>
+        <item>Sudden Weight Loss</item>
+        <item>Sweating</item>
+        <item>Muscle And Body Pain</item>
+        <item>Thirsty Than Usual</item>
+        <item>Headaches</item>
+        <item>Weakness/Fatigue</item>
+        <item>Abdominal Pain</item>
+        <item>Muscle Pain</item>
+        <item>Dry Cough</item>
+        <item>Diarrhoea/Constipation</item>
+        <item>Frequent Urination</item>
+        <item>Hunger</item>
+        <item>Blurred Vision</item>
+        <item>Skin Itching</item>
+        <item>Chest Pain</item>
+        <item>Shortness in Breath</item>
+        <item>Dizziness</item>
+        <item>Fast Heartbeat</item>
+        <item>Indigestion</item>
+        <item>Pressure Or Heaviness In Chest</item>
+
+    </string-array>
+</resources>

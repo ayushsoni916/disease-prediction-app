@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/otptext"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".symptomes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Enter your symptons!"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="339dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/otptext"
+                android:backgroundTint="@color/white"
+                android:elevation="5dp"
+                android:entries="@array/symptom_list"
+                android:popupBackground="@drawable/otptext"
+                android:soundEffectsEnabled="true"
+                android:spinnerMode="dropdown"
+                android:theme="@style/spinnerstyle"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Spinner
+                android:id="@+id/spinner10"
+                android:layout_width="339dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/otptext"
+                android:backgroundTint="#FFFFFF"
+                android:elevation="5dp"
+                android:entries="@array/symptom_list"
+                android:popupBackground="@drawable/otptext"
+                android:soundEffectsEnabled="true"
+                android:spinnerMode="dropdown"
+                android:theme="@style/spinnerstyle"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Spinner
+                android:id="@+id/spinner11"
+                android:layout_width="339dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/otptext"
+                android:backgroundTint="#FFFFFF"
+                android:elevation="5dp"
+                android:entries="@array/symptom_list"
+                android:popupBackground="@drawable/otptext"
+                android:soundEffectsEnabled="true"
+                android:spinnerMode="dropdown"
+                android:theme="@style/spinnerstyle"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Spinner
+                android:id="@+id/spinner12"
+                android:layout_width="339dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/otptext"
+                android:backgroundTint="#FFFFFF"
+                android:elevation="5dp"
+                android:entries="@array/symptom_list"
+                android:popupBackground="@drawable/otptext"
+                android:soundEffectsEnabled="true"
+                android:spinnerMode="dropdown"
+                android:theme="@style/spinnerstyle"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Spinner
+                android:id="@+id/spinner13"
+                android:layout_width="339dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/otptext"
+                android:backgroundTint="#FFFFFF"
+                android:elevation="5dp"
+                android:entries="@array/symptom_list"
+                android:popupBackground="@drawable/otptext"
+                android:soundEffectsEnabled="true"
+                android:spinnerMode="dropdown"
+                android:theme="@style/spinnerstyle"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Spinner
+                android:id="@+id/spinner14"
+                android:layout_width="339dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/otptext"
+                android:backgroundTint="#FFFFFF"
+                android:elevation="5dp"
+                android:entries="@array/symptom_list"
+                android:popupBackground="@drawable/otptext"
+                android:soundEffectsEnabled="true"
+                android:spinnerMode="dropdown"
+                android:theme="@style/spinnerstyle"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Spinner
+                android:id="@+id/spinner15"
+                android:layout_width="339dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/otptext"
+                android:backgroundTint="#FFFFFF"
+                android:elevation="5dp"
+                android:entries="@array/symptom_list"
+                android:popupBackground="@drawable/otptext"
+                android:soundEffectsEnabled="true"
+                android:spinnerMode="dropdown"
+                android:theme="@style/spinnerstyle"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#34B7FF"
+                android:text="KNOW YOUR DISEASE" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
